@@ -30,7 +30,6 @@ export default function ChatContent() {
     e.preventDefault();
     if (!input.trim()) {
       setInput("");
-      return alert("1 weyler yazda ala");
     }
     setMessages([...messages, input]);
     setInput("");
