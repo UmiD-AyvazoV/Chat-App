@@ -29,6 +29,7 @@ export default function ChatContent() {
   const sendMessage = async (e) => {
     e.preventDefault();
     if (!input.trim()) {
+      alert('Bir şeylər yazın...');
       setInput("");
     }
     setMessages([...messages, input]);
